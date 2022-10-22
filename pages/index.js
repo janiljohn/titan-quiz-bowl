@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Game!
+          Welcome to Titan Quiz Bowl!
         </h1>
 
         <div className={styles.grid}>
