@@ -13,10 +13,11 @@ export default function Music() {
       </Head>
 
       <main className={styles.main}>
-      <h1>
-            Music Questions
-            
+      
+        <h1>
+            Hello World
         </h1>
+        
         <h2> Question 1 of 10 </h2> 
 
         <h1>Which percussion instrument is named after its shape? </h1>
