@@ -41,7 +41,7 @@ export default function History() {
       ],
     },
     {
-      text: "Which era marked a switch from agricultural practies to industrial practices?",
+      text: "Which era marked a switch from agricultural practices to industrial practices?",
       options: [
         { Answer: 0, text: "The Great Depression", isCorrect: false },
         { Answer: 1, text: "The Middle Ages", isCorrect: false },
