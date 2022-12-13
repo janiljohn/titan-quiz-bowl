@@ -144,10 +144,10 @@ export default function Music() {
     }
 
     if(playerTurn%2==1){
-      document.getElementById("player1score").style.backgroundColor = "red"
+      document.getElementById("player1score").style.backgroundColor = "gray"
       document.getElementById("player2score").style.backgroundColor = "black"
     } else{
-      document.getElementById("player2score").style.backgroundColor = "red"
+      document.getElementById("player2score").style.backgroundColor = "gray"
       document.getElementById("player1score").style.backgroundColor = "black"
     }
   };
@@ -170,7 +170,7 @@ export default function Music() {
           <Item>
             <div
               id="player1score"
-              style={{ backgroundColor: "red", color: "white" }}
+              style={{ backgroundColor: "gray", color: "white" }}
             >
               Player1: {playerOneScore}{" "}
             </div>
