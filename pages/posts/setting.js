@@ -7,6 +7,9 @@ import { useState, useEffect } from 'react'
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 
+export var player1 = "";
+export var player2 = "";
+
 export default function Settings() {
 
   const [name1,setName1] = useState("Player1")
@@ -14,6 +17,8 @@ export default function Settings() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    player1 = name1;
+    player2 = name2;
   }
 
   return (
