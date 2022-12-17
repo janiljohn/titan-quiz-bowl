@@ -2,11 +2,12 @@
 
 There are two approaches to accessing this application:
 
+1) Visit: 
 ```bash
-Visit: https://titanquizbowl.vercel.app/
-# or
-Clone this repository and run it locally
+https://titanquizbowl.vercel.app/
 ```
+2) Clone this repository and run it locally
+
 ## Cloning and Running Locally
 
 Follow these steps clone this repository and successfully run the project.
